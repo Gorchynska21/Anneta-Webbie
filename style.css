@@ -1,0 +1,332 @@
+* {
+  padding: 0; 
+  margin: 0; 
+}
+body{
+  background-color: lightgrey; 
+}
+
+.items{
+  display: flex; 
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.navbar{
+  display: flex; 
+  background-color: white;
+  width: 100vp; 
+  word-spacing: 2em;
+  padding: 40px; 
+  justify-content: space-around; 
+}
+
+nav a{ 
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.greeting{
+   background: lightgreen; 
+   padding: 60px; 
+   border: 1px black solid; 
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;  
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.item{
+  background-color: black;
+  color: white;  
+  border: 1px black solid; 
+  padding: 10px; 
+}
+
+li:nth-child(1){
+  background-color: white;
+  color: black;
+  border: none;  
+}
+
+li:nth-child(4){
+  background-color: lightgreen;
+  color: black; 
+}
+
+li:nth-child(5){
+  word-spacing: normal;
+}
+
+.info{
+  display: flex; 
+  border: 1px black solid; 
+  padding: 30px; 
+  color: rgb(32, 13, 13);
+  justify-content: flex-end; 
+}
+
+.steps{
+  display: flex; 
+  background-color: black;
+  color: lightgrey;
+  border: 1px black solid; 
+  padding: 20px; 
+}
+
+.steps h2{
+  color: darkgreen; 
+}
+
+.container-2{
+  background-color: rgb(236, 236, 79); 
+  color: black;
+  text-align: center; 
+}
+
+.container-2 li{
+  border: 1px black solid;
+  padding: 5px;   
+}
+
+.skill{
+  align-self: center;
+  padding-bottom: 20px; 
+}
+
+.lists{
+  background-color: rgb(238, 238, 85);
+  padding: 0 150px; 
+}
+
+.list-one{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.list-one .name{
+  background-color: black;
+  color: white; 
+  flex:0.15; 
+  text-align: center;
+}
+
+.list-one .placeholder{
+  background-color: darkgreen;
+  flex:1; 
+}
+
+.list-one .percentage{
+  flex:0.1; 
+  background-color: rgb(240, 240, 150); 
+}
+
+.list-two{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-two .name{
+  background-color: black;
+  color: white;
+  flex:0.15; 
+  text-align: center; 
+}
+
+.list-two .placeholder{
+  background-color: darkgreen;
+  flex:1; 
+}
+
+.list-two .percentage{
+  flex:0.1;
+  background-color: rgb(240, 240, 150);  
+}
+
+.list-three{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-three .name{
+  background-color: black;
+  color: white; 
+  flex:0.15; 
+  text-align: center; 
+}
+
+.list-three .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-three .percentage{
+  flex:0.2;
+  background-color: rgb(240, 240, 150);  
+}
+
+.list-four{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-four .name{
+  background-color: black;
+  color: white;
+  flex:0.15; 
+  text-align: center;  
+}
+
+.list-four .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-four .percentage{
+  flex:0.3;
+  background-color: rgb(240, 240, 150); 
+}
+
+.list-five{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-five .name{
+  background-color: black;
+  color: white; 
+  flex:0.15; 
+  text-align: center; 
+}
+
+.list-five .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-five .percentage{
+  flex:0.2;
+  background-color: rgb(240, 240, 150); 
+}
+
+.list-six{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-six .name{
+  background-color: black;
+  color: white; 
+  flex:0.15; 
+  text-align: center; 
+}
+
+.list-six .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-six .percentage{
+  flex:0.1;  
+  background-color: rgb(240, 240, 150); 
+}
+
+.list-seven{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-seven .name{
+  background-color: black;
+  color: white; 
+  flex:0.15; 
+  text-align: center; 
+}
+
+.list-seven .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-seven .percentage{
+  flex:0.3; 
+  background-color: rgb(240, 240, 150);
+}
+
+.list-eight{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.list-eight .name{
+  background-color: black;
+  color: white;
+  flex:0.15; 
+  text-align: center;  
+}
+
+.list-eight .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-eight .percentage{
+  flex:0.3; 
+  background-color: rgb(240, 240, 150);
+}
+
+.list-nine{
+  display: flex;
+  border: 1px black solid; 
+  padding: 10px; 
+  justify-content: space-between;
+  list-style-type: none; 
+}
+
+.list-nine .name{
+  background-color: black;
+  color: white; 
+  flex:0.15; 
+  text-align: center; 
+}
+
+.list-nine .placeholder{
+  background-color: darkgreen;
+  flex:1;
+}
+
+.list-nine .percentage{
+  flex:0.4; 
+  background-color: rgb(240, 240, 150);
+}
+
