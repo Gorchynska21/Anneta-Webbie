@@ -6,11 +6,23 @@ body{
   background-color: lightgrey; 
 }
 
+.container{
+  border: 50px white solid; 
+}
+
 .items{
   display: flex; 
   list-style-type: none;
-  flex-direction: row;
+  flex-direction: row; 
 }
+
+.item{
+  background-color: rgb(233, 233, 115);
+  color: black;  
+  border: 1px black solid; 
+  padding: 10px; 
+}
+
 
 .navbar{
   display: flex; 
@@ -42,13 +54,6 @@ h2{
   padding-top: 20px;
 }
 
-.item{
-  background-color: black;
-  color: white;  
-  border: 1px black solid; 
-  padding: 10px; 
-}
-
 li:nth-child(1){
   background-color: white;
   color: black;
@@ -74,8 +79,8 @@ li:nth-child(5){
 
 .steps{
   display: flex; 
-  background-color: black;
-  color: lightgrey;
+  background-color: rgb(240, 240, 119);
+  color: black;
   border: 1px black solid; 
   padding: 20px; 
 }
@@ -86,6 +91,7 @@ li:nth-child(5){
 
 .container-2{
   background-color: rgb(236, 236, 79); 
+  border: 50px white solid; 
   color: black;
   text-align: center; 
 }
@@ -329,4 +335,169 @@ li:nth-child(5){
   flex:0.4; 
   background-color: rgb(240, 240, 150);
 }
+
+.container-3{
+  background-color: lightskyblue;
+  border: 50px white solid; 
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px; 
+  width: 100vp; 
+  justify-content: space-evenly;   
+}
+
+.box{
+  border: 5px white solid; 
+  background-color: lightgrey;
+  justify-content: space-evenly;
+  margin: 60px;
+  width: 200px; 
+  height: 210px;
+  align-items: center; 
+}
+
+.text{
+  border: 2px white solid; 
+}
+
+.container-4{
+  background-color: rgb(245, 190, 81);
+  border: 50px white solid; 
+  padding: 20px;  
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  margin: 50px; 
+}
+
+.my_name_is{
+  border: 3px green solid; 
+  margin: 30px;
+  text-align: center; 
+}
+
+.image2{
+  border: 3px green solid; 
+  height: 200px;
+  align-self: center; 
+}
+
+.btn{
+  background-color: rgb(51, 238, 51);
+  color: white; 
+  width: 100px; 
+  height: 50px; 
+  font-size: 15px;
+  border: 1px rgb(16, 94, 16) solid; 
+}
+
+.container-5{
+  background-color: black;
+  color: white; 
+  border: 50px white solid; 
+}
+
+.icons{
+  padding-left: 400px;
+}
+
+.icon{
+  display: inline-block; 
+  font-size: 30px;
+  margin: 50px; 
+  list-style: none;
+  border: 2px white solid; 
+}
+
+.form{
+  background-color: rgb(108, 235, 108);
+  border: 50px white solid; 
+}
+
+.form h1{
+  color: white; 
+}
+
+.first_name{
+  color: white; 
+  font-size: 20px;
+  margin: 30px; 
+  width: 14%;  
+  text-align: center;
+}
+
+.last_name{
+  color: white; 
+  font-size: 20px;
+  margin: 30px; 
+  width: 14%;  
+  text-align: center;
+}
+
+.email{
+  color: white; 
+  font-size: 20px;
+  margin: 30px; 
+  width: 14%;  
+  text-align: center;
+}
+
+.form-info{
+  display: flex; 
+  justify-content: space-around;
+}
+
+.message{ 
+  color: white; 
+  font-size: 30px;
+  margin: 20px; 
+  width: 700px;
+  height: 150px;   
+  padding-left: 60px;
+}
+
+textarea{
+  width: 100%;
+  height: 70%; 
+  padding-left: 200px; 
+}
+
+.button{
+  margin: 30px; 
+  padding-left: 50px;
+  font-size: 20px;   
+}
+
+.bottom{
+  background-color: rgb(32, 240, 32);
+  border: 50px white solid; 
+  height: 170px;
+  text-align: center;
+  padding: 50px; 
+}
+
+.bottom h2{
+  margin-top: 0; 
+}
+
+.icon2{
+  display: inline-block; 
+  font-size: 30px;
+  margin: 50px; 
+  list-style: none;
+  border: 2px white solid; 
+}
+
+
+
+
+
+
+
+
 
